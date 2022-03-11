@@ -1,0 +1,49 @@
+:root {
+    --default-color: rgb(40, 41, 41); 
+    --primary-color: rgb(69, 37, 164);
+    --primary-font-color: white;
+    --indicator-border-color: white;
+    --secondary-color: rgb(245, 51, 148); 
+    --accent-color: rgb(99, 192, 199);
+    --opacity-color: 80%;
+    --ghost-font-color: rgb(40, 41, 41);
+    --color-none: 0%;
+    --link-font-color: rgb(69, 37, 164);
+    --footer-background: rgb(40, 44, 44); 
+    --h3-footer-color: rgb(173, 173, 173); 
+    --color-indicator: rgb(0, 255, 55);
+  
+
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    gap: 2rem;
+}
+
+section {
+    margin: 4rem;
+}
+button {
+    padding: 1rem;
+    border-radius: 12px;
+    border: none;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+div {
+    padding: 0.3rem;
+    border-radius: 30px;
+    border: none;
+}
+
+pre {
+    background: black;
+    color: white;
+    width: fit-content;
+    padding: 0.8rem;
+    border-radius: 3px;
+    margin-bottom: 4rem;
+}
